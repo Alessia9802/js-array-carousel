@@ -8,7 +8,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
   height: 720px;
 }
 
@@ -24,4 +23,18 @@
   width: 150px;
   height: 68px;
   display: block;
+}
+
+.quadro_1,
+.quadro_5 {
+  position: relative;
+  border: 2px solid rgb(247, 250, 169);
+}
+.arrow-up {
+  position: absolute;
+  left: 60px;
+  background-color: rgb(156, 156, 156);
+  padding: 1px;
+  width: 17px;
+  border-radius: 50px;
 }
