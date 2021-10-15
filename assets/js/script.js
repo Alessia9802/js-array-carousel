@@ -14,7 +14,11 @@ const items = [
   "img/05.jpg",
 ];
 
+console.log(items);
+
 const title = ["Svezia", "Svizzera", "Gran Bretagna", "Germania", "Paradise"];
+
+console.log(title);
 
 const text = [
   "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam, cumque provident totam omnis, magnam dolores dolorum corporis.",
@@ -23,3 +27,20 @@ const text = [
   "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam,",
   "Et temporibus voluptatum suscipit tempore aliquid deleniti aut veniam inventore eligendi ex ad ullam,",
 ];
+
+console.log(text);
+
+const carouselImage = document.querySelector(".items");
+const carouselButtons = document.queryCommandValue(".arrow");
+const singleItems = document.querySelector(".items .foto");
+
+let image = 1
+let button = 0
+
+console.log(carouselImage, carouselButtons, singleItems);
+
+carouselButtons.addEventListener("click") {
+  if (carouselImage == singleItems) {
+    let image
+  }
+}

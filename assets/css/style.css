@@ -25,16 +25,33 @@
   display: block;
 }
 
-.quadro_1,
-.quadro_5 {
+.quadro_1 {
   position: relative;
   border: 2px solid rgb(247, 250, 169);
 }
-.arrow-up {
+
+.quadro_5 {
+  position: relative;
+}
+.arrow {
   position: absolute;
   left: 60px;
-  background-color: rgb(156, 156, 156);
-  padding: 1px;
-  width: 17px;
+  cursor: pointer;
+}
+
+.fa-chevron-up,
+.fa-chevron-down {
+  padding: 5px;
+  background-color: rgb(204, 200, 200);
   border-radius: 50px;
+}
+
+.slide {
+  position: relative;
+}
+
+.text {
+  position: absolute;
+  bottom: 30px;
+  color: white;
 }
